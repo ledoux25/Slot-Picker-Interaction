@@ -7,15 +7,24 @@
 
 import SwiftUI
 
+
+
 struct ContentView: View {
+    let weekDays = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        
+        NavigationStack{
+            VStack {
+                ForEach(weekDays, id: \.self) {
+                    ToggleBox(label: $0)
+                }
+
+            }
+            .navigationTitle("Slot Picker")
+            .navigationBarTitleDisplayMode(.inline)
+            .padding(.horizontal, 28)
         }
-        .padding()
+
     }
 }
 
