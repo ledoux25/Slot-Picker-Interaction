@@ -1,0 +1,555 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		EF7759AB2E7F0B1E0017E4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7759952E7F0B1C0017E4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF77599C2E7F0B1C0017E4F0;
+			remoteInfo = SlotPicker;
+		};
+		EF7759B52E7F0B1E0017E4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF7759952E7F0B1C0017E4F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF77599C2E7F0B1C0017E4F0;
+			remoteInfo = SlotPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF77599D2E7F0B1C0017E4F0 /* SlotPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlotPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7759AA2E7F0B1E0017E4F0 /* SlotPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF7759B42E7F0B1E0017E4F0 /* SlotPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlotPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		EF77599F2E7F0B1C0017E4F0 /* SlotPicker */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SlotPicker;
+			sourceTree = "<group>";
+		};
+		EF7759AD2E7F0B1E0017E4F0 /* SlotPickerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SlotPickerTests;
+			sourceTree = "<group>";
+		};
+		EF7759B72E7F0B1E0017E4F0 /* SlotPickerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SlotPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF77599A2E7F0B1C0017E4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7759A72E7F0B1E0017E4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7759B12E7F0B1E0017E4F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF7759942E7F0B1C0017E4F0 = {
+			isa = PBXGroup;
+			children = (
+				EF77599F2E7F0B1C0017E4F0 /* SlotPicker */,
+				EF7759AD2E7F0B1E0017E4F0 /* SlotPickerTests */,
+				EF7759B72E7F0B1E0017E4F0 /* SlotPickerUITests */,
+				EF77599E2E7F0B1C0017E4F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF77599E2E7F0B1C0017E4F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF77599D2E7F0B1C0017E4F0 /* SlotPicker.app */,
+				EF7759AA2E7F0B1E0017E4F0 /* SlotPickerTests.xctest */,
+				EF7759B42E7F0B1E0017E4F0 /* SlotPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF77599C2E7F0B1C0017E4F0 /* SlotPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7759BE2E7F0B1E0017E4F0 /* Build configuration list for PBXNativeTarget "SlotPicker" */;
+			buildPhases = (
+				EF7759992E7F0B1C0017E4F0 /* Sources */,
+				EF77599A2E7F0B1C0017E4F0 /* Frameworks */,
+				EF77599B2E7F0B1C0017E4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				EF77599F2E7F0B1C0017E4F0 /* SlotPicker */,
+			);
+			name = SlotPicker;
+			packageProductDependencies = (
+			);
+			productName = SlotPicker;
+			productReference = EF77599D2E7F0B1C0017E4F0 /* SlotPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF7759A92E7F0B1E0017E4F0 /* SlotPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7759C12E7F0B1E0017E4F0 /* Build configuration list for PBXNativeTarget "SlotPickerTests" */;
+			buildPhases = (
+				EF7759A62E7F0B1E0017E4F0 /* Sources */,
+				EF7759A72E7F0B1E0017E4F0 /* Frameworks */,
+				EF7759A82E7F0B1E0017E4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7759AC2E7F0B1E0017E4F0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EF7759AD2E7F0B1E0017E4F0 /* SlotPickerTests */,
+			);
+			name = SlotPickerTests;
+			packageProductDependencies = (
+			);
+			productName = SlotPickerTests;
+			productReference = EF7759AA2E7F0B1E0017E4F0 /* SlotPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF7759B32E7F0B1E0017E4F0 /* SlotPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF7759C42E7F0B1E0017E4F0 /* Build configuration list for PBXNativeTarget "SlotPickerUITests" */;
+			buildPhases = (
+				EF7759B02E7F0B1E0017E4F0 /* Sources */,
+				EF7759B12E7F0B1E0017E4F0 /* Frameworks */,
+				EF7759B22E7F0B1E0017E4F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF7759B62E7F0B1E0017E4F0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				EF7759B72E7F0B1E0017E4F0 /* SlotPickerUITests */,
+			);
+			name = SlotPickerUITests;
+			packageProductDependencies = (
+			);
+			productName = SlotPickerUITests;
+			productReference = EF7759B42E7F0B1E0017E4F0 /* SlotPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF7759952E7F0B1C0017E4F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					EF77599C2E7F0B1C0017E4F0 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					EF7759A92E7F0B1E0017E4F0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EF77599C2E7F0B1C0017E4F0;
+					};
+					EF7759B32E7F0B1E0017E4F0 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = EF77599C2E7F0B1C0017E4F0;
+					};
+				};
+			};
+			buildConfigurationList = EF7759982E7F0B1C0017E4F0 /* Build configuration list for PBXProject "SlotPicker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF7759942E7F0B1C0017E4F0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = EF77599E2E7F0B1C0017E4F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF77599C2E7F0B1C0017E4F0 /* SlotPicker */,
+				EF7759A92E7F0B1E0017E4F0 /* SlotPickerTests */,
+				EF7759B32E7F0B1E0017E4F0 /* SlotPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF77599B2E7F0B1C0017E4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7759A82E7F0B1E0017E4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7759B22E7F0B1E0017E4F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF7759992E7F0B1C0017E4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7759A62E7F0B1E0017E4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF7759B02E7F0B1E0017E4F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF7759AC2E7F0B1E0017E4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF77599C2E7F0B1C0017E4F0 /* SlotPicker */;
+			targetProxy = EF7759AB2E7F0B1E0017E4F0 /* PBXContainerItemProxy */;
+		};
+		EF7759B62E7F0B1E0017E4F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF77599C2E7F0B1C0017E4F0 /* SlotPicker */;
+			targetProxy = EF7759B52E7F0B1E0017E4F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EF7759BC2E7F0B1E0017E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF7759BD2E7F0B1E0017E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF7759BF2E7F0B1E0017E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.SlotPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF7759C02E7F0B1E0017E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.SlotPicker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF7759C22E7F0B1E0017E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.SlotPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlotPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlotPicker";
+			};
+			name = Debug;
+		};
+		EF7759C32E7F0B1E0017E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.SlotPickerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SlotPicker.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SlotPicker";
+			};
+			name = Release;
+		};
+		EF7759C52E7F0B1E0017E4F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.SlotPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlotPicker;
+			};
+			name = Debug;
+		};
+		EF7759C62E7F0B1E0017E4F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ledoux.sanguo.SlotPickerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SlotPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF7759982E7F0B1C0017E4F0 /* Build configuration list for PBXProject "SlotPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7759BC2E7F0B1E0017E4F0 /* Debug */,
+				EF7759BD2E7F0B1E0017E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7759BE2E7F0B1E0017E4F0 /* Build configuration list for PBXNativeTarget "SlotPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7759BF2E7F0B1E0017E4F0 /* Debug */,
+				EF7759C02E7F0B1E0017E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7759C12E7F0B1E0017E4F0 /* Build configuration list for PBXNativeTarget "SlotPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7759C22E7F0B1E0017E4F0 /* Debug */,
+				EF7759C32E7F0B1E0017E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF7759C42E7F0B1E0017E4F0 /* Build configuration list for PBXNativeTarget "SlotPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF7759C52E7F0B1E0017E4F0 /* Debug */,
+				EF7759C62E7F0B1E0017E4F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF7759952E7F0B1C0017E4F0 /* Project object */;
+}
