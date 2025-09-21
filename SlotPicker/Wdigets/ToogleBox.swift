@@ -58,7 +58,6 @@ struct ToggleBox: View {
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 8)
                         .background(.backGroundGrey)
-                        .clipShape(.rect(cornerRadius: 14))
 
                     }
                     .onAppear {
@@ -67,6 +66,7 @@ struct ToggleBox: View {
                         }
                     }
                     .transition(.opacity.combined(with: .offset(y: 30)))
+                    .clipShape(.rect(cornerRadius:  16))
                 }
 
             }
@@ -75,6 +75,7 @@ struct ToggleBox: View {
 
         }
         .background(!toogle ? .backGroundGrey : .white)
+        .clipShape(.rect(cornerRadius: toogle ? 1 : 16))
         .overlay(
             Group {
                 if toogle {
@@ -83,7 +84,7 @@ struct ToggleBox: View {
                 }
             }
         )
-        .clipShape(.rect(cornerRadius: 16))
+        
     }
 }
 
